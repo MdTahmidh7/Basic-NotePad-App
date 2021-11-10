@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="14dp"
+    android:background="@drawable/rounded_corner"
+    android:layout_marginBottom="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleView"
+        android:textSize="23sp"
+        android:textColor="#0B040C"
+        tools:text = "My title"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionView"
+        android:layout_below="@id/titleView"
+        android:textSize="15sp"
+        android:textColor="#615F5F"
+        tools:text = "My long long description"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeView"
+        android:layout_below="@id/descriptionView"
+        android:gravity="end"
+        android:textSize="11sp"
+        android:textColor="#959393"
+        tools:text = "10th January 2021"
+        />
+
+
+
+
+
+</RelativeLayout>
